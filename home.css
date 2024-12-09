@@ -1,0 +1,580 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+li,
+a,
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: hsla(195, 13%, 94%, 0.963);
+  text-decoration: none;
+  list-style-type: none;
+}
+.navbar {
+  background: #265073;
+  font-family: calibri;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 16px;
+  font-weight: 500;
+  color: lightgrey;
+}
+
+.navdiv li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li a {
+  margin-right: 25px;
+}
+
+button {
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 50px;
+  padding: 10px;
+  width: 90px;
+}
+
+button a {
+  color: #0000ff;
+}
+
+select {
+  background-color: #265073;
+  color: hsla(195, 13%, 94%, 0.963);
+  border: none;
+  width: 80px;
+}
+
+/* Products */
+.products {
+  background-color: #ebf4fa;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  color: black;
+}
+
+.products .pause {
+  width: 50px;
+  height: 50px;
+}
+.products b {
+  color: #265073;
+  font-size: xx-large;
+}
+
+.products h3 {
+  color: #265073;
+  font-size: xx-large;
+}
+
+.products button:first-of-type {
+  background-color: tomato;
+  color: white;
+  /* width: fit-content; */
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: medium;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(to right, #007bff 60%, crimson 40%);
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+}
+
+.button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.button span:first-child {
+  background: transparent;
+  margin-left: 14px;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.button span:last-child {
+  background: transparent;
+}
+
+.button span:last-child {
+  text-align: center;
+}
+
+.button span:last-child .percent {
+  font-size: xx-large;
+}
+
+.button span:last-child .text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.download ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.download li {
+  display: flexbox;
+  justify-content: space-between;
+  text-align: justify;
+  color: #265073;
+  align-items: center;
+  gap: 5px;
+  padding: 15px 0px;
+  font-size: 13px;
+  margin-left: 80px;
+}
+
+/* Style the images */
+.download li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+/* Adjust text position */
+ul.download li {
+  line-height: 1; /* Reduce line-height to tighten text placement */
+}
+
+ul.download li span {
+  position: relative;
+  top: -7px; /* Adjust text slightly upwards */
+}
+
+/* Circular container around icons */
+.icon-circle {
+  display: inline-flex; /* Center the image inside the circle */
+  justify-content: right;
+  align-items: center;
+  width: 30px; /* Width of the circle */
+  height: 30px; /* Height of the circle (same as width for a perfect circle) */
+  border-radius: 50%; /* Makes the container circular */
+  background-color: #f0f0f0; /* Background color of the circle */
+  border: 2px solid #ccc; /* Optional: Add a border */
+  overflow: hidden; /* Ensures the image fits inside the circle */
+}
+
+/* Style the image */
+.icon-circle img {
+  width: 60%; /* Adjust the size of the image inside the circle */
+  height: 60%; /* Ensure the image fits proportionally */
+  object-fit: content;
+}
+
+.details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  background-color: white;
+}
+
+.details li {
+  display: inline;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 10px;
+  font-size: 13px;
+  color: black;
+  background-color: white;
+}
+
+/* Style the images */
+.details li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+/* Adjust text position */
+ul.details li {
+  line-height: 1; /* Reduce line-height to tighten text placement */
+}
+
+ul.details li span {
+  position: relative;
+  top: -7px; /* Adjust text slightly upwards */
+}
+
+/* overview */
+
+.overview1 {
+  background: url(imageforhtmlcssassignment/accelerate_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 180px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: #265073;
+  padding-top: 1%;
+}
+
+.overview2 {
+  background-color: #f8f8ff;
+  display: block;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+}
+
+.overview2 h3 {
+  color: #265073;
+}
+
+.overview2 h5 {
+  color: black;
+}
+
+.overview2 p b {
+  color: #0000ff;
+}
+
+.overview2 .column {
+  float: left;
+  width: 50%;
+}
+
+.overview3 {
+  background: url(imageforhtmlcssassignment/bg-how-does-office365-mailbox-work.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  padding-top: 1%;
+}
+
+.overview3 span {
+  position: relative;
+  top: -197px;
+}
+
+.overview3 h3 {
+  color: #265073;
+}
+
+.overview3 ol li {
+  color: black;
+  list-style-type: decimal;
+  width: 450px;
+  padding: 10px;
+  margin-left: -45px;
+}
+
+.overview3 button {
+  border-radius: 20px;
+  border: transparent;
+  background-color: royalblue;
+  color: #fffffff5;
+  width: 125px;
+  margin-left: 0;
+}
+
+/* footer */
+
+footer {
+  background-color: #3d3c3a;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 10px;
+}
+
+footer ul li {
+  display: block;
+  justify-content: space-between;
+  color: #c0c0c0;
+  padding: 5px;
+}
+
+footer li b {
+  color: #f8f8ff;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+  width: 15%;
+}
+
+.row1::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+}
+
+/* General sprite settings */
+/* .icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('imageforhtmlcssassignment/otherlinks-sprite.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.icon-cloud {
+  background-position: 0 0;
+}
+
+.icon-folder {
+  background-position: -32px 0;
+}
+
+.icon-microsoft {
+  background-position: -64px 0;
+}
+
+.icon-stack {
+  background-position: -96px 0;
+}
+
+.icon-files {
+  background-position: -128px 0;
+} */
+
+/* responsive */
+
+/* @media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+} */
+
+/* responsive navbar */
+
+header {
+  background: #265073;
+  color: white;
+
+  padding: 0.5rem 0;
+}
+
+.nav {
+  display: flex;
+  flex-grow: 1;
+}
+
+.nav--ul__one {
+  margin: 0 auto;
+}
+
+.nav-container,
+.nav--ul__one,
+.nav--ul__two {
+  display: inline;
+  gap: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.hamburger-menu {
+  display: none; /* Hidden by default for larger screens */
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .nav-container .logo {
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nav--ul__one,
+  .nav--ul__two {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .hamburger-menu {
+    display: block;
+
+    z-index: 2;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    width: 100%;
+
+    padding-top: 6rem;
+
+    align-items: center;
+    text-align: center;
+    background-color: #265073;
+    color: white;
+
+    transition: 0.15s ease-in-out;
+  }
+
+  .nav.active {
+    right: 0;
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Navbar adjustments */
+  .navdiv {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navdiv ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  li a {
+    margin: 10px 0;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Products Section */
+  .products {
+    padding: 5%;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column1 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Details Section */
+  .details li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  /* Overview Section */
+  .overview1 {
+    height: auto; /* Adjust height dynamically for smaller screens */
+    padding: 10px;
+    text-align: center;
+  }
+
+  .overview2 .column {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  /* Adjust images and icons */
+  img,
+  .icon {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Footer adjustments */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Extra small devices adjustments */
+  body {
+    font-size: 14px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .products,
+  .details,
+  .overview1 {
+    padding: 3%;
+  }
+}
